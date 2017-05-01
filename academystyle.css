@@ -1,0 +1,58 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: green;
+    background-color: grey;
+    background-image: url("pictures/background.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+#felsoresz {
+    background-image: url("pictures/felso.jpg");
+    height: 860px;
+    margin-top: -169px;
+    padding: 0px;
+    width: 100%;
+}   
+#content {
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+#login_form {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding-top: 50px;
+}
+#left-menu {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:rgb(64, 64, 64);
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}

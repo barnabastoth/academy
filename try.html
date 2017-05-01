@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>My first web page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- This is a comment, by the way -->
+
+</head>
+
+<body>
+<div id="footer">
+    <p>Footer! Hoorah!</p>
+</div>
+<div id="navigation">
+    <ul>
+        <li><a href="this.html">This</a></li>
+        <li><a href="that.html">That</a></li>
+        <li><a href="theOther.html">The Other</a></li>
+    </ul>
+</div>
+
+<div id="content">
+    <h1>Ra ra banjo banjo</h1>
+    <p>Welcome to the Ra ra banjo banjo page. Ra ra banjo banjo. Ra ra banjo banjo. Ra ra banjo banjo.</p>
+    <p>(Ra ra banjo banjo)</p>
+</div>
+<input name="country" list="country_name">
+<datalist id="country_name">
+    <option value="Afghanistan">
+    <option value="Albania">
+    <option value="Algeria">
+    <option value="Andorra">
+    <option value="Armenia">
+    <option value="Australia">
+    <option value="Austria">
+    <option value="Azerbaijan">
+    <!-- etc. -->
+</datalist>
+<input type="tel" name="telephone_number">
+<input type="url" name="web_address">
+<input type="email" name="email_address">
+<input type="number" name="quantity" step="2" min="20" max="30">
+<select name="country">
+    <optgroup label="Africa">
+        <option value="gam">Gambia</option>
+        <option value="mad">Madagascar</option>
+        <option value="nam">Namibia</option>
+    </optgroup>
+    <optgroup label="Europe">
+        <option value="fra">France</option>
+        <option value="rus">Russia</option>
+        <option value="uk">UK</option>
+    </optgroup>
+    <optgroup label="North America">
+        <option value="can">Canada</option>
+        <option value="mex">Mexico</option>
+        <option value="usa">USA</option>
+    </optgroup>
+</select>
+<form action="somescript.php" >
+    <fieldset>
+        <legend>Name</legend>
+        <p>First name <input name="firstName"></p>
+        <p>Last name <input name="lastName"></p>
+    </fieldset>
+    <fieldset>
+        <legend>Address</legend>
+        <p>Address <textarea name="address"></textarea></p>
+        <p>Postal code <input name="postcode"></p>
+    </fieldset>
+    <!-- etc. -->
+<form>
+    <label for="yourName">Your Name</label>
+    <input name="yourName" id="yourName">
+    <!-- etc. -->
+<header>
+    <h1>The Heading</h1>
+    <a href="#content">Skip to content</a>
+</header> 
+
+<nav>
+    <!--loads of navigation stuff -->
+</nav>
+
+<section id="content">
+    <!--lovely content -->
+</section>
+<p>I'm really bad at writing link text. <a href="inept.html" title="Why I'm rubbish at writing link text: An explanation and an apology.">Click here</a> to find out more.</p>
+<table>
+    <thead>
+        <tr>
+            <td>Header 1</td>
+            <td>Header 2</td>
+            <td>Header 3</td>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <td>Footer 1</td>
+            <td>Footer 2</td>
+            <td>Footer 3</td>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <!-- etc. -->
+    </tbody>
+</table>
+<table>
+    <colgroup>
+        <col>
+        <col class="alternative">
+        <col>
+    </colgroup>
+    <tr>
+        <td>This</td>
+        <td>That</td>
+        <td>The other</td>
+    </tr>
+    <tr>
+        <td>Ladybird</td>
+        <td>Locust</td>
+        <td>Lunch</td>
+    </tr>
+</table>
+<blockquote>
+    <p>He wants to play with his <mark>Legos</mark></p>
+</blockquote>
+
+<p>The person being quoted is clearly American because, for some odd reason, they pluralise "Lego".</p>
+<p>Written by Doctor Who on <time datetime="2052-11-21">Thursday 21st November 2052</time>.</p>
+<h1>My first web page</h1>
+<figure>
+    <blockquote>[Big old quotation about evolution]</blockquote>
+    <figcaption>Charles Darwin</figcaption>
+</figure>
+<figure>
+    <img src="obelisk.jpg">
+    <figcaption>Tixall Obelisk</figcaption>
+</figure>
+
+<nav id="main_nav">
+    <ul>
+        <li><a href="/tutorials/">Tutorials</a></li>
+        <li><a href="/techniques/">Techniques</a></li>
+        <li><a href="/examples/">Examples</a></li>
+        <li><a href="/references/">References</a></li>
+    </ul>
+</nav>
+<section id="main_content">
+    <h1>Tixall</h1>
+    <p>[All about Tixall]</p>
+    <aside>
+        <h2>Tixall Obelisk</h2>
+        <p>[A short note about Tixall Obelisk]</p>
+    </aside>
+    <p>[Maybe a bit more about Tixall]</p>
+</section>
+<pre><code>
+&lt;div id="intro"&gt;
+    &lt;h1&gt;Some heading&lt;/h1&gt;
+    &lt;p&gt;Some paragraph paragraph thing thing thingy.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre>
+
+<h1>Some random glossary thing</h1>
+<dl>
+    <dt>HTML</dt>
+    <dd>Abbreviation for HyperText Markup Language - a language used to make web pages.</dd>
+
+    <dt>Dog</dt>
+    <dd>Any carnivorous animal belonging to the family Canidae.</dd>
+    <dd>The domesticated sub-species of the family Canidae, Canis lupus familiaris.</dd>
+
+    <dt>Moo juice</dt>
+    <dt>Cat beer</dt>
+    <dt>Milk</dt>
+    <dd>A white liquid produced by cows and used for human consumption.</dd>
+</dl>
+
+<p>Bob's <dfn title="Dog">canine</dfn> mother and <dfn title="Horse">equine</dfn> father sat him down and carefully explained that he was an <dfn title="A mutation that combines two or more sets of chromosomes from different species">allopolyploid</dfn> organism.</p>
+<p>I have decided to <del datetime="2013-01-26">decrease</del> <ins cite="http://www.icecreamforall.com/changeofpolicy/">increase</ins> the amount of free ice cream that the State will provide for its citizens.</p>
+
+<article>
+    <section id="intro">
+        <p>[An introduction]</p>
+    </section>
+    <section id="main_content">
+        <p>[Content]</p>
+    </section>
+    <section id="related">
+        <ul>
+            <li><a href="that.html">That related article</a></li>
+            <li><a href="this.html">This related article</a></li>
+        </ul>
+    </section>
+</article>
+
+
+<article>
+    <header>
+        <h1>Alternatively&hellip;</h1>
+        <p>[An introduction]</p>
+    </header>
+    <section id="main_content">
+        <p>[Content]</p>
+    </section>
+    <footer>
+        <p>[End notes]</p>
+    </footer>
+</article>
+<footer>
+    <p>[Copyright bumf]</p>
+</footer>
+
+
+
+<h3>Author contact details</h3>
+<address>
+<ul>
+    <li>0123-456-7890</li>
+    <li>author_dude@noplaceinteresting.com</li>
+    <li>http://www.noplaceinteresting.com/contactme/</li>
+</ul>
+</address>
+
+<table>
+    <tr>
+        <th>Column 1 heading</th>
+        <th>Column 2 heading</th>
+        <th>Column 3 heading</th>
+    </tr>
+    <tr>
+        <td>Row 2, cell 1</td>
+        <td colspan="2">Row 2, cell 2, also spanning Row 2, cell 3</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Row 3, cell 1, also spanning Row 4, cell 1</td>
+        <td>Row 3, cell 2</td>
+        <td>Row 3, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 4, cell 2</td>
+        <td>Row 4, cell 3</td>
+    </tr>
+</table>
+
+<h2>What this is</h2>
+<p>A simple page put together using HTML. <em>I said a simple page put together using HTML.</em> A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML. A simple page put together using HTML.</p>
+
+<h2>Why this is</h2>
+<ul>
+    <li>To learn HTML</li>
+    <li>
+        To show off
+        <ol>
+            <li>To my boss</li>
+            <li>To my friends</li>
+            <li>To my cat</li>
+            <li>To the little talking duck in my brain</li>
+        </ol>
+    </li>
+    <li>Because I have fallen in love with my computer and want to give her some HTML loving.</li>
+</ul>
+
+<h2>Where to find the tutorial</h2>
+<p><a href="http://www.htmldog.com"><img src="http://www.htmldog.com/badge1.gif" width="120" height="90" alt="HTML Dog"></a></p>
+
+<h3>Some random table</h3>
+<table>
+    <tr>
+        <td>Row 1, cell 1</td>
+        <td>Row 1, cell 2</td>
+        <td>Row 1, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 2, cell 1</td>
+        <td>Row 2, cell 2</td>
+        <td>Row 2, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 3, cell 1</td>
+        <td>Row 3, cell 2</td>
+        <td>Row 3, cell 3</td>
+    </tr>
+    <tr>
+        <td>Row 4, cell 1</td>
+        <td>Row 4, cell 2</td>
+        <td>Row 4, cell 3</td>
+    </tr>
+</table>
+
+<h3>Some random form</h3>
+<p><strong>Note:</strong> It looks the part, but won't do a damned thing.</p>
+
+<form action="somescript.php" method="post">
+
+<p>Name:</p>
+<p><input name="name" value="Your name"></p>
+
+<p>Comments: </p>
+<p><textarea rows="10" cols="20" name="comments">Your comments</textarea></p>
+
+<p>Are you:</p>
+<p><input type="radio" name="areyou" value="male"> Male</p>
+<p><input type="radio" name="areyou" value="female"> Female</p>
+<p><input type="radio" name="areyou" value="hermaphrodite"> An hermaphrodite</p>
+<p><input type="radio" name="areyou" value="asexual" checked> Asexual</p>
+
+<p><input type="submit"></p>
+
+</form>
+
+</body>
+
+</html>
